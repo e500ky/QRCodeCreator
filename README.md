@@ -15,10 +15,6 @@ A modern, web-based QR code generator with platform-specific logo integration an
 - 🔍 High error correction level
 - 🖼️ Custom file naming based on content
 
-## Demo
-
-Live demo: [Your Demo Link Here]
-
 ## Technologies Used
 
 - Backend: Python (Flask)
