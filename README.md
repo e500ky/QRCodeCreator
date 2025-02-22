@@ -104,7 +104,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
+Instagram - [@firattunaarslann](https://instagram.com/firattunaarslann)
 
 Project Link: [https://github.com/yourusername/QR-Code-Generator](https://github.com/yourusername/QR-Code-Generator)
 
