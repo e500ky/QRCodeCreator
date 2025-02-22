@@ -106,7 +106,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Instagram - [@firattunaarslann](https://instagram.com/firattunaarslann)
 
-Project Link: [https://github.com/yourusername/QR-Code-Generator](https://github.com/yourusername/QR-Code-Generator)
+Project Link: [https://github.com/e500ky/QR-Code-Generator](https://github.com/e500ky/QR-Code-Generator)
 
 ## Acknowledgments
 
