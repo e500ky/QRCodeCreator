@@ -70,7 +70,7 @@ Example URLs:
 
 ```
 QRCodeCreator/
-├── app.py              # Main Flask application
+├── app.py             # Main Flask application
 ├── static/
 │   ├── css/           # Stylesheets
 │   ├── js/            # JavaScript files
