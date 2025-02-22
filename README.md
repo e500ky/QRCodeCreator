@@ -2,8 +2,6 @@
 
 A modern, web-based QR code generator with platform-specific logo integration and customization options.
 
-![QR Code Generator Demo](static/demo.gif)
-
 ## Features
 
 - 🎨 Modern and responsive UI
