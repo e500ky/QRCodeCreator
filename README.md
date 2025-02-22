@@ -55,7 +55,7 @@ The application will be available at `http://localhost:5000`
 
 ## Usage
 
-![How to Use](static/usage.gif)
+![How to Use](static/demo.gif)
 
 1. Enter your text or URL in the input field
 2. Select desired color and size
