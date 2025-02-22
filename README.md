@@ -27,7 +27,7 @@ A modern, web-based QR code generator with platform-specific logo integration an
 
 1. Clone the repository
 ```bash
-git clone https://github.com/e500ky/QR-Code-Generator.git
+git clone https://github.com/e500ky/QRCodeGenerator.git
 cd QR-Code-Generator
 ```
 
@@ -102,7 +102,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Instagram - [@firattunaarslann](https://instagram.com/firattunaarslann)
 
-Project Link: [https://github.com/e500ky/QR-Code-Generator](https://github.com/e500ky/QR-Code-Generator)
+Project Link: [https://github.com/e500ky/QRCodeGenerator](https://github.com/e500ky/QRCodeGenerator)
 
 ## Acknowledgments
 
