@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    
+    <!-- Favicon bağlantıları -->
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="apple-touch-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    
+    <!-- Mevcut CSS ve font bağlantıları -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>QR Code Generator</h1>
+            <p>Enter your text and customize</p>
+            <small style="color: var(--text-color); opacity: 0.7;">
+                QR (Quick Response) codes allow fast and easy data sharing
+            </small>
+        </header>
+
+        <main>
+            <div class="input-section">
+                <textarea id="qr-text" placeholder="Enter your text here to create QR code..."></textarea>
+                
+                <div class="options">
+                    <div class="option-group">
+                        <label for="qr-color">Color:</label>
+                        <select id="qr-color">
+                            <option value="black">Black</option>
+                            <option value="blue">Blue</option>
+                            <option value="red">Red</option>
+                            <option value="green">Green</option>
+                        </select>
+                    </div>
+
+                    <div class="option-group">
+                        <label for="qr-size">Size:</label>
+                        <select id="qr-size">
+                            <option value="200">200x200</option>
+                            <option value="300" selected>300x300</option>
+                            <option value="400">400x400</option>
+                            <option value="500">500x500</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button id="generate-btn">Generate QR Code</button>
+            </div>
+
+            <div class="result-section">
+                <div id="qr-result">
+                    <img id="qr-image" src="" alt="" style="display: none;">
+                    <div id="empty-state">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 3h6v6H3zM15 3h6v6h-6zM3 15h6v6H3z"/>
+                            <path d="M15 15h2m2 0h2M15 19h6M19 15v2"/>
+                        </svg>
+                        <p>Enter text to generate QR code</p>
+                    </div>
+                </div>
+                <button id="download-btn" style="display: none;">Download</button>
+            </div>
+        </main>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
