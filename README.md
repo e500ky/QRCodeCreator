@@ -31,7 +31,7 @@ Live demo: [Your Demo Link Here]
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/QR-Code-Generator.git
+git clone https://github.com/e500ky/QR-Code-Generator.git
 cd QR-Code-Generator
 ```
 
